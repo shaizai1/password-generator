@@ -1,3 +1,14 @@
+
+let pass1 = prompt('uppercase characters?', 'yes', 'no' );
+
+
+
+
+
+
+
+
+
 // Array of special characters to be included in password
 var specialCharacters = [
   '@',
@@ -27,6 +38,8 @@ var specialCharacters = [
 
 // Array of numeric characters to be included in password
 var numericCharacters = ['0', '1', '2', '3', '4', '5', '6', '7', '8', '9'];
+math.floor(math.random()*numericCharacters.length);
+return numericCharacters[randomIndex];
 
 // Array of lowercase characters to be included in password
 var lowerCasedCharacters = [
@@ -101,10 +114,19 @@ function getRandom(arr) {
 // Function to generate password with user input
 function generatePassword() {
 
+ let newPassword = ""
+   for (let i = 0; i< 100; i++){
+   
+    newPassword += "j"
+  }
+
+  return newPassword;
+
 }
 
 // Get references to the #generate element
 var generateBtn = document.querySelector('#generate');
+
 
 // Write password to the #password input
 function writePassword() {
@@ -116,3 +138,7 @@ function writePassword() {
 
 // Add event listener to generate button
 generateBtn.addEventListener('click', writePassword);
+
+
+
+//bigArray = bigArray.concat(exampleArray)
