@@ -1,14 +1,4 @@
 
-let pass1 = prompt('uppercase characters?', 'yes', 'no' );
-
-
-
-
-
-
-
-
-
 // Array of special characters to be included in password
 var specialCharacters = [
   '@',
@@ -103,11 +93,13 @@ var upperCasedCharacters = [
 
 // Function to prompt user for password options
 function getPasswordOptions() {
+  prompt('uppercase characters?', 'yes', 'no' );
 
 }
 
 // Function for getting a random element from an array
 function getRandom(arr) {
+math.random(upperCasedCharacters);
 
 }
 
