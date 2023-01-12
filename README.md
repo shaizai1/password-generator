@@ -3,8 +3,7 @@
 ## Overview
 
  This app will run in the browser, and will feature dynamically updated HTML and CSS powered by JavaScript code. It adapts to multiple screen sizes.
-
-The password can include special characters. 
+It will generate a password based on user preferences which will be added through prompts. The password can include numeric, uppercase, lowercase and special characters. 
 
 ## Usage
 
